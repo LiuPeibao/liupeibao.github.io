@@ -1,0 +1,36 @@
+---
+layout: tasks/compress
+---
+
+{%- include rest/variables.liquid -%}
+
+{%- include common/rest/site_pages.liquid -%}
+{%- include common/rest/i18n.liquid -%}
+{%- include common/rest/variables.liquid -%}
+{%- include common/rest/content.liquid -%}
+{%- include common/rest/nav.liquid -%}
+{%- include common/rest/title.liquid -%}
+{%- include common/rest/description.liquid -%}
+
+<!DOCTYPE html>
+<html lang="{{ lang }}" dir="{{ direction }}">
+    <head>
+        {%- include common/meta.liquid -%}
+        {%- include common/title.liquid -%}
+        {%- include common/twitter_cards.liquid -%}
+        {%- include common/opengraph.liquid -%}
+        {%- include common/schema.liquid -%}
+        {%- include common/links.liquid -%}
+        {%- include rest/styles.liquid -%}
+        {%- include common/script.liquid -%}
+    </head>
+    <body class="container">
+        {%- include templates/sidebar.liquid -%}
+        {%- include templates/content.liquid -%}
+        {%- include templates/addons.liquid -%}
+        {%- include rest/script.liquid -%}
+        {%- include common/mermaid.liquid-%}
+        {%- include common/google_gtag.liquid-%}
+        {%- include common/google_adsense.liquid-%}
+    </body>
+</html>
