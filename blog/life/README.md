@@ -1,3 +1,2 @@
 # Life
 
-source: `{{ page.path }}`

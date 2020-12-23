@@ -1,1 +1,1 @@
-# Welcome!
+# [Welcome to My Blog!](/blog/README.md)
