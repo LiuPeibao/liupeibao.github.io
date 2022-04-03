@@ -1,4 +1,6 @@
-# My Dev Env
+# Docker & Qemu
+***Summary: docker for build; qemu for run***
+
 Buildroot and Yocto seem good to be used to customize rootfs and kernel.But from the view of learning kernel, I think these platforms are not straight. So I just do something straight, also a little boring. This doc descipes what I am using to build kernel v3.13-rc8 to do something like that [samplefs](https://github.com/LiuPeibao/samplefs).
 
 ## 1 Build Kernel in Docker

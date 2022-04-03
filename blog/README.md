@@ -2,6 +2,6 @@
 sort: 2
 ---
 
-# My Blog
+# Hi, Blog!
 
 {% include list.liquid all=true %}
